@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<editor-fold desc="MAIN THEME">-->
+    <color name="colorPrimary">#E31717</color>
+    <color name="colorPrimaryDark">#E31717</color>
+    <color name="colorAccent">#E31717</color>
+    <!--</editor-fold>-->
+
+    <color name="white">#ffffff</color>
+    <color name="black">#030303</color>
+
+    <color name="red_500">#f44336</color>
+    <color name="red_900">#b71c1c</color>
+    <color name="red_A700">#d50000</color>
+
+    <color name="_66000000">#66E31717</color>
+</resources>

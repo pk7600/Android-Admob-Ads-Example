@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DreamTeam</string>
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_bannerad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitialad_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_nativead_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="admob_openad_id" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="facebook_app_id" translatable="false">1501310956926885</string>
+
+</resources>

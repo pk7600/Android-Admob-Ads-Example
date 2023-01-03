@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppActionBar">
+        <item name="actionModeBackground">@color/colorAccent</item>
+    </style>
+    <!-- Base application theme. -->
+
+    <style name="AppTheme.FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorControlHighlight" tools:targetApi="lollipop">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Button" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorButtonNormal" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTranslucent" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges-->
+        <!--        </item>-->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+    <!--<editor-fold desc="Application Base theme">-->
+    <style name="AppBaseTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+    <!--</editor-fold>-->
+
+    <!--<editor-fold desc="THEME-1">-->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+
+        <item name="native_ads_main_color">@color/colorPrimary</item>
+        <item name="native_ads_label_text_color">@android:color/white</item>
+        <item name="native_ads_background_color">@android:color/white</item>
+        <item name="native_ads_body_text_color">@android:color/black</item>
+
+    </style>
+    <!--</editor-fold>-->
+
+
+    <style name="PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:listPreferredItemHeight">@dimen/_50sdp</item>
+        <item name="android:popupBackground">@drawable/popup_bg</item>
+        <item name="android:dropDownHorizontalOffset">-150dp</item>
+        <item name="android:dropDownVerticalOffset">@dimen/_4sdp</item>
+        <item name="android:listPreferredItemPaddingLeft">5dp</item>
+        <item name="android:listPreferredItemPaddingRight">10dp</item>
+        <item name="android:popupElevation" tools:targetApi="lollipop">20dp</item>
+    </style>
+
+    <style name="FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
